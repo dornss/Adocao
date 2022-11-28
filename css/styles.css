@@ -1,0 +1,214 @@
+
+/* Gerais */
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+header, .navbar {
+    background-color: #5271ff;
+    font-family: 'Fredoka One', cursive;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 200px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+}
+
+.navbar-brand:hover {
+    color:#FFF;
+}
+
+#navbar-links a {
+    color:#FFF;
+}
+
+#navbar-links:hover {
+    text-decoration: none;
+    color: #FFF;
+    border-color: #ffde59;
+    opacity: 0.9;
+}
+
+.navbar-expang-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* Slider*/
+
+.container-fluid {
+    padding: 0;
+}
+  
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+}
+
+  
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+  
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+  
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+
+#mainSlider .carousel-item a {
+    margin-top: 0px ;
+}
+.main-btn {
+    background-color: #ffde59;
+    color: #444;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .3s;
+    font-family: 'Fredoka One', cursive;
+}
+  
+.main-btn:hover {
+    text-decoration: none;
+    color: #444;
+    background-color: transparent;
+    border-color: #ffde59;
+    opacity: 0.9;
+}
+
+.carousel-indicators li {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+.carousel-indicators .active {
+    background-color: #ffde59;
+}
+
+/* Sobre a empresa*/
+
+#about-area{
+    background-color: #f9f9f9;
+}
+
+.main-title{
+    color:#5271ff;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #ffdc4e;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-title span{
+    color:#5271ff;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 20px;
+}
+
+#about-list i{
+    color:#5271ff;
+    margin-right: 15px;
+}
+
+.col-md-6 {
+    font-family: 'Montserrat';
+}
+
+.col-md-6 img {
+    border-radius: 5%;
+}
+
+/*Catálogo de Animais*/
+
+.project-box {
+    margin-bottom: 30px;
+}
+  
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+  
+#portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+  
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+    color: #FFF;
+    border: 1px solid #ffdc4e;
+    background-color: #ffdc4e;
+}
+
+.col-md-4 img{
+    border-radius: 10%;
+}
