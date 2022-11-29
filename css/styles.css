@@ -1,9 +1,5 @@
 
 /* Gerais */
-html{
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -112,8 +108,8 @@ header, .navbar {
 }
 
 .carousel-indicators li {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     border-radius: 100%;
     margin-left: 20px;
     margin-bottom: 50px;
@@ -431,7 +427,7 @@ header, .navbar {
 
 /* Responsivo */
 
-@media(max-width: 788px) {
+@media(max-width: 768px) {
 
     /*geral*/
     .container {
@@ -439,6 +435,9 @@ header, .navbar {
     }
 
     /* slider */
+    #mainSlider{
+        margin-top: 90px;
+    }
 
     #mainSlider .carousel-inner, #mainSlider .carousel-item {
         height: auto;
@@ -524,4 +523,104 @@ header, .navbar {
     #contact-area {
         font-size: 16px;
     }
+}
+
+@media(max-width: 425px) {
+    
+    /*slider*/
+
+    #mainSlider {
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-caption{
+        top: 5%;
+         
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption {
+        display: none;
+    }
+
+    .carousel-control-prev, .carousel-control-next{
+        margin-bottom: 50px;
+    }
+
+    /*About*/
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    #email-input {
+        width: 90%;
+    }
+
+    /*call to action*/
+
+    #call-area p, #call-area #call-btn {
+        font-size: 14px;
+        letter-spacing: 0;
+        margin: 0;
+        width: 50%;
+    }
+
+    #about-area .about-title {
+        margin-bottom: 30px;
+    }
+
+    /* data */
+
+    .circle-box {
+        width: 50%;
+    }
+
+    /*time*/
+
+    #team-area .col-md-4 {
+        width: 33%;
+        margin-bottom: 30px;
+    }
+    
+    /*filter*/
+
+    #portfolio-area .filter-btn {
+        margin-bottom: 20px;
+    }
+
+    #portfolio-area .main-title{
+        font-size: 25px;
+    }
+
+    .project-box {
+        width: 50%;
+    }
+
+    /*news*/
+
+    #news-area .main-title {
+        font-size: 25px;
+    }
+
+    #news-aera p {
+        font-size: 16px;
+    }
+
+    /*contact*/
+
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
+
 }
